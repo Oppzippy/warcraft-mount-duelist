@@ -1,0 +1,5 @@
+logs
+src/settings.php
+vendor
+composer.lock
+config.ini
