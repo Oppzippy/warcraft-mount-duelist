@@ -18,7 +18,8 @@
         
         <div class="container">
             <footer class="row">
-                <a href="https://www.github.com/oppzippy/warcraft-mount-duelist">Github</a>
+                <a href="https://www.github.com/oppzippy/warcraft-mount-duelist">Github</a> |
+                <a href="/contact">Contact</a>
             </footer>
         </div>
     </body>
