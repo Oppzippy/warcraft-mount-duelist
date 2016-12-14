@@ -1,0 +1,82 @@
+/*
+ * skeleton.css offset-by does not align correctly with other columns because of a 4% 
+ * padding-left that only applies to columns but not offsets.
+ * To work around this, we're just using regular columns as spacers with a height of 1px.
+ */
+.spacer {
+    height: 1px;
+}
+
+.section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.error-message {
+    margin: auto;
+    background-color: red;
+    color: white;
+    z-index: -1;
+    border-radius: 4px;
+    animation-name: slide-down;
+    animation-duration: 0.2s;
+}
+
+.page-title {
+    background-color: #AAAAAA;
+    text-align: center;
+}
+
+.title-link {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 1em;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #AAAAAA;
+    text-align: center;
+}
+
+button:disabled, button:disabled:hover, buton:disabled:focus {
+    background-color: #CCCCCC;
+    border-color: black;
+}
+
+#error-message-close {
+    right: 0px;
+}
+
+@keyframes slide-down {
+    0% {
+        position: relative;
+        top: -38px;
+        max-width: 120px;
+        max-height: 38px;
+    }
+    75% {
+        position: relative;
+        top: 0px;
+        max-width: 120px;
+        max-height: 800px;
+    }
+    100% {
+        top: 0px;
+        max-width: 220px;
+        max-height: 800px;
+        position: static;
+    }
+}
+
+#compare {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#compare-btn {
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}

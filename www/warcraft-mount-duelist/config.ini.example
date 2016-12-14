@@ -1,0 +1,2 @@
+battlenet_api_key = "key"
+memcached_servers[] = "127.0.0.1:11211"
