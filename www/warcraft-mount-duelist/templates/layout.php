@@ -15,12 +15,9 @@
             <a href="/" class="title-link"><h1>Warcraft Mount Duelist</h1></a>
         </header>
         <?= $content ?>
-        
-        <div class="container">
-            <footer class="row">
-                <a href="https://www.github.com/oppzippy/warcraft-mount-duelist">Github</a> |
-                <a href="/contact">Contact</a>
-            </footer>
-        </div>
+        <footer class="container footer">
+            <a href="https://www.github.com/oppzippy/warcraft-mount-duelist">Github</a>
+            <a href="/contact">Contact</a>
+        </footer>
     </body>
 </html>
